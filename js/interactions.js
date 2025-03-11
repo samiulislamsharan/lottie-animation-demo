@@ -9,3 +9,15 @@ LottieInteractivity.create({
         },
     ]
 });
+
+LottieInteractivity.create({
+    player: '#lottie-sync-cursor-blueprint',
+    mode: 'cursor',
+    actions: [
+        {
+            position: { x: [0, 1], y: [0, 1] },
+            type: "seek",
+            frames: [0, 42]
+        }
+    ]
+});
